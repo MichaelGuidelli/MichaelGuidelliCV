@@ -1,5 +1,5 @@
-@import url("./styles/mobile.css");
 @import url("./styles/desktop.css");
+@import url("./styles/mobile.css");
 
 :root {
     --sfondo: #282c34;

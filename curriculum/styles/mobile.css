@@ -1,0 +1,140 @@
+/* PHONE MEDIA QUERY */
+
+@media all and (max-width: 1199px) {
+    
+    .riga-verticale { display: none;}
+
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 26px 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .centrami-div {
+        margin: 40px 0 40px 0;
+        width: 100%;
+        grid-area: 1 / 2 / 2 / 3;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto);
+        grid-column-gap: 0px;
+        grid-row-gap: 60px;
+    }
+
+    .numeri-div {
+        grid-area: 1 / 1 / 2 / 2;
+        top: 4px;
+        color: var(--rosso);
+        user-select: none;
+        text-align: end;
+    }
+
+    #about {
+        line-height: 22px;
+        text-align: start;
+    }
+
+    #esperienze-lavorative {
+        line-height: 22px;
+    }
+
+    .foto-div img {
+        width: 140px; height: 140px;
+    }
+
+    .sezione-div, .foto-div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sezione-titolo {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .sezione-testo {
+        max-width: 300px;
+        margin: 20px 0px 0px 40px;
+        text-align: start;
+    }
+
+    .svg-p-row {
+        max-width: 300px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .svg-p-row img {
+        width: 32px; height: 32px;
+    }
+
+    .svg-p-row p {
+        float: left;
+        margin: auto 0 auto 10px;
+    }
+
+    .tipo-diploma {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    li {
+        margin-top: 4px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .badge-div {
+        max-width: 300px; height: 150px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 100px;
+    }
+
+    .badge-div:first-child {
+        margin-top: 30px;
+    }
+
+    .badge-div img {
+        width: 120px; height: 120px;
+    }
+
+    .badge-titolo {
+        font-weight: bold;
+    }
+
+    .badge-testo {
+      margin: 14px auto;
+      align-items: center;
+      text-align: center;
+    }
+
+    .attestato {
+        max-width: 300px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .graffa-chiusa {
+        font-size: 18px; 
+        font-weight: bold;
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,76 @@
+@import url("./styles/mobile.css");
+@import url("./styles/desktop.css");
+
+:root {
+    --sfondo: #282c34;
+    --rosso: #c24038;
+    --bianco: #f8fafd;
+    --blu: #4087EE;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+@font-face {
+    font-family: Aquatico;
+    src: url("./Aquatico-Regular.otf");
+}
+
+body {
+    background-color: var(--sfondo);
+    color: var(--bianco);
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: var(--bianco);
+    user-select: none;
+}
+
+.header h2 {
+    color: var(--bianco);
+    font-weight: bold;
+}
+
+.giallo {
+    color: yellow;
+}
+
+.rosso {
+    color: var(--rosso);
+}
+
+.slash {
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.graffa {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.lista-scuola {
+    list-style-type: none;
+}
+
+.colore-icon {
+    filter: invert(38%) sepia(17%) saturate(3400%) hue-rotate(324deg) brightness(87%) contrast(98%);
+}
+
+.sito-acquarioferraris {
+    font-family: Aquatico;
+}
+
+.blu {
+    color: var(--blu);
+}

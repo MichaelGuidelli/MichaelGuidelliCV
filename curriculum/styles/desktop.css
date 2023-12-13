@@ -57,6 +57,10 @@
         line-height: 22px;
     }
 
+    #titolo-progetto {
+        float: left;
+    }
+
     #riga-verticale {
         grid-area: 1 / 2 / 7 / 3;
     }
@@ -190,5 +194,6 @@
         float: left;
         margin-top: 20px;
     }
+
 
 } 

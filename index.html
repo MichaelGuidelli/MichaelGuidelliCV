@@ -1,313 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michael Guidelli CV</title>
-    <link rel="stylesheet" href="./curriculum/main.css">
+    <link rel="stylesheet" href="./curriculum/main.css" />
     <script src="./curriculum/app.js"></script>
-</head>
-<body onload="creaNumeri()">
-    
+  </head>
+  <body onload="creaNumeri()">
     <div class="grid">
-
-        <div class="centrami-div">
-
-            <!-- HEADER -->
-
-            <div class="header" id="header">
-                <h1>
-                    <span class="rosso">&lt;</span>
-                    CV
-                    <span class="rosso">&gt;</span>
-                </h1>
-
-                <h2>
-                    <span class="slash giallo">//</span>
-                    Michael Guidelli
-                </h2>
-
-                <h5 class="giallo">
-                    Developer / Studente
-                </h5>
-            </div>
-
-            <div class="foto-div">
-                <img src="./curriculum/images/avatar.svg" alt="">
-            </div>
-
-            <!-- ABOUT -->
-
-            <div class="sezione-div" id="about">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    About Me 
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br>
-
-                <div class="sezione-testo">
-                    <p>
-                        Ciao, mi chiamo Michael e sono un
-                        Neodiplomato dalla scuola Galileo Ferraris indirizzo informatica, sono desideroso di mettere in pratica 
-                        le nozioni apprese durante il percoso scolastico. 
-                    </p>
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- DATI PERSONALI -->
-
-            <div class="sezione-div" id="dati-personali">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Dati Personali
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_dati_personali/mail_icon.svg" alt="">
-                        <p><a href="mailto:GuidelliMichael@Gmail.com">GuidelliMichael@Gmail.com</a></p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_dati_personali/telefono_icon.svg" alt="">
-                        <p>3511542492</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_dati_personali/casa_icon.svg" alt="">
-                        <p>Napoli, Italia</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_dati_personali/calendario_icon.svg" alt="">
-                        <p>07/10/2003</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_dati_personali/macchina_icon.svg" alt="">
-                        <p>B, automunito</p>
-                    </div>
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- ESPERIENZE LAVORATIVE -->
-
-            <div class="sezione-div" id="esperienze-lavorative">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Esperienze Lavorative
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br>
-
-                <div class="sezione-testo">
-                    <p> 
-                        Nell'ultimo anno di superiori ho avuto la fortuna di poter partecipare 
-                        ad un progetto scolastico riguardante un sito web chiamato <a href="http://79.61.212.13/" target="_blank">
-                        <span class="sito-acquarioferraris">
-                            <span class="sito-acquarioferraris blu">ACQUARIO</span>FERRARIS
-                        </span></a>,
-                        dove ho coperto il ruolo di Designer e Sviluppatore. In questo progetto ho imparato a rispettare le dead line, il team working
-                        e a lavorare sotto pressione. Sono pronto ad affrontare nuove sfide e imparare.
-                    </p>
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- SKILLS -->
-
-            <div class="sezione-div" id="skills">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Skills 
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-                
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_skills/linguaggi_icon.svg" alt="">
-                        <p>Python, JavaScript, HTML, CSS, Mysql, PHP</p>
-                    </div>
-                    
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_skills/problem_solving_icon.png" alt="">
-                        <p>Problem Solving</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_skills/pensiero_critico_svg.png" alt="">
-                        <p>Critical Thinking</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img class="colore-icon" src="./curriculum/images/svg_skills/comunicazione_icon.svg" alt="">
-                        <p>Comunicazione</p>
-                    </div>
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- RIGA VETICALE -->
-
-            <div class="riga-verticale" id="riga-verticale"></div>
-
-            <!-- FORMAZIONE SCOLASTICA -->
-
-            <div class="sezione-div" id="formazioneo-scolastica">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Formazione Scolastica
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-                    <p class="tipo-diploma">Medie</p>
-
-                    <ul class="lista-scuola">
-                        <li>Virgilio I, Napoli</li>
-                        <li>6/10</li>
-                        <li class="giallo">2016-2017</li>
-                    </ul>
-
-                    <p class="tipo-diploma">Superiori</p>
-
-                    <ul class="lista-scuola">
-                        <li><a href="https://www.itiferraris.edu.it/" target="_blank">ITI Galileo Ferraris, Napoli</a></li>
-                        <li>Indirizzo informatica</li>
-                        <li>95/100esimi</li>
-                        <li>EQF 4</li>
-                        <li class="giallo">2022-2023</li>
-                    </ul>
-
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- CERTIFICAZIONI  -->
-
-            <div class="sezione-div" id="certificazioni">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Certificazioni e Attestati
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-
-                    <div class="badge-div">
-                        <img src="./curriculum/images/certificazioni/badge_lettura_b2.png" alt="">
-                        
-                        <p class="badge-testo"> <span class="badge-titolo">Prova INVALSI Inglese lettura - Livello B2 </span>
-                            <br> 
-                            <span class="giallo">2023</span>
-                            <br>
-                            <a href="https://openbadges.bestr.it/public/assertions/FJw-gavOSoq27l00FxY2lQ" target="_blank">bestr.it</a>
-                        </p>
-                    </div>
-
-                    <div class="badge-div">
-                        <img src="./curriculum/images/certificazioni/badge_ascolto_b2.png" alt="">
-                    
-                        <p class="badge-testo"> <span class="badge-titolo">Prova INVALSI Inglese ascolto - Livello B2 </span>
-                            <br> 
-                            <span class="giallo">2023</span>
-                            <br>
-                            <a href="https://openbadges.bestr.it/public/assertions/TbkjSukWSaSUCqfQU8HBeQ" target="_blank">bestr.it</a>
-                        </p>
-                    
-                    </div>
-
-                    <div class="attestato">
-                        <span class="badge-titolo">Il digitale ci integra -2 </span> <br>
-                        <p>10.3.1A-FSEPON-CA-2019-57</p>
-                        <span class="giallo">2022</span> <a href="./curriculum/documents/attestato_il_digitale_ci_integra_2_2022.pdf" target="_blank">Visualizza</a>
-                    </div>
-
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- LINGUE -->
-
-            <div class="sezione-div" id="lingue">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Lingue
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-                    
-                    <div class="svg-p-row">
-                        <img src="./curriculum/images/lingue/bandiera_italiana.png" alt="">
-                        <p>Madrelingua</p>
-                    </div>
-
-                    <div class="svg-p-row">
-                        <img src="./curriculum/images/lingue/bandiera_regno_unito.png" alt="">
-                        <p>B2</p>
-                    </div>  
-                
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
-            <!-- SOCIAL -->
-
-            <div class="sezione-div" id="social">
-                <h3 class="sezione-titolo">
-                    <span class="slash giallo">/</span>
-                    Social
-                    <span class="graffa rosso">&#123;</span>
-                </h3>
-
-                <br class="br-da-nascondere">
-
-                <div class="sezione-testo">
-
-                    <div class="svg-p-row">
-                        <a href="https://github.com/MichaelGuidelli" target="_blank"><img src="./curriculum/images/svg_social/github_icon.svg" alt=""></a>
-                        <p><a href="https://github.com/MichaelGuidelli" target="_blank">Github</a></p>
-                    </div>
-                    
-                    <div class="svg-p-row">
-                        <a href="https://www.linkedin.com/in/michael-guidelli-1ba93a279/" target="_blank"><img class="social-icon" src="./curriculum/images/svg_social/linkedin_icon.svg" alt=""></a>
-                        <p><a href="https://www.linkedin.com/in/michael-guidelli-1ba93a279/" target="_blank">Linkedin</a></p>
-                    </div>
-
-                </div>
-
-                <p class="graffa-chiusa rosso">&#125;</p>
-            </div>
-
+      <div class="centrami-div">
+        <!-- HEADER -->
+
+        <div class="header" id="header">
+          <h1>
+            <span class="rosso">&lt;</span>
+            CV
+            <span class="rosso">&gt;</span>
+          </h1>
+
+          <h2>
+            <span class="slash giallo">//</span>
+            Michael Guidelli
+          </h2>
+
+          <h5 class="giallo">Developer / Studente</h5>
         </div>
 
-        <div class="numeri-div"></div>
+        <div class="foto-div">
+          <img src="./curriculum/images/avatar.svg" alt="" />
+        </div>
 
+        <!-- ABOUT -->
+
+        <div class="sezione-div" id="about">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            About Me
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br />
+
+          <div class="sezione-testo">
+            <p>
+              Ciao, mi chiamo Michael e sono un neodiplomato in Informatica con
+              punteggio 95/100. Ho sviluppato competenze specifiche nel campo
+              informatico studiando e lavorando a progetti scolastici. Sono
+              particolarmente abile nella gestione delle tempistiche e a
+              lavorare sotto pressione, dimostrando una forte autonomia.
+            </p>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- DATI PERSONALI -->
+
+        <div class="sezione-div" id="dati-personali">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Dati Personali
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_dati_personali/mail_icon.svg"
+                alt=""
+              />
+              <p>
+                <a href="mailto:GuidelliMichael@Gmail.com"
+                  >GuidelliMichael@Gmail.com</a
+                >
+              </p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_dati_personali/telefono_icon.svg"
+                alt=""
+              />
+              <p>3511542492</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_dati_personali/casa_icon.svg"
+                alt=""
+              />
+              <p>Napoli, Italia</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_dati_personali/calendario_icon.svg"
+                alt=""
+              />
+              <p>07/10/2003</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_dati_personali/macchina_icon.svg"
+                alt=""
+              />
+              <p>B, automunito</p>
+            </div>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- PROGETTI -->
+
+        <div class="sezione-div" id="esperienze-lavorative">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Progetti
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+          <br />
+          <div class="sezione-testo">
+            <a href="http://79.61.212.13/" target="_blank">
+              <span class="sito-acquarioferraris">
+                <span class="sito-acquarioferraris blu">ACQUARIO</span>FERRARIS
+              </span>
+            </a>
+
+            <p>
+              Nell'ultimo anno di superiori ho lavorato ad un progetto
+              scolastico riguardante un sito web. Dove ho coperto il ruolo di Designer e Sviluppatore. Nello specifico ho lavorato su:
+              <ul >
+                <li>Simulazioni di sensori per la misurazione di dati come: Mangime, temperatura, PH, livello dell'acqua; Effettuata con linguaggio JavaScript;</li>
+                <li>Progettazione e archiviazione di un database MySQL utilizzando il linguaggio PHP per interagire con il database e fare queries;</li>
+                <li>Creazione pagina web utilizzando HTML, CSS, PHP, PHP e JavaScript per rendere la pagina responsive e dinamica;</li>
+                <li>Interfaccia utente per interagire con il database e fare queries;</li>
+                <li>Design del sito.</li>
+              </ul>
+              Grazie a questo progetto ho imparato a lavorare sotto pressione ea rispettare le deadline.
+            </p>
+
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- SKILLS -->
+
+        <div class="sezione-div" id="skills">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Skills
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_skills/linguaggi_icon.svg"
+                alt=""
+              />
+              <p>Python, JavaScript, HTML, CSS, Mysql, PHP, C</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_skills/problem_solving_icon.png"
+                alt=""
+              />
+              <p>Problem Solving</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_skills/pensiero_critico_svg.png"
+                alt=""
+              />
+              <p>Critical Thinking</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                class="colore-icon"
+                src="./curriculum/images/svg_skills/comunicazione_icon.svg"
+                alt=""
+              />
+              <p>Comunicazione</p>
+            </div>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- RIGA VETICALE -->
+
+        <div class="riga-verticale" id="riga-verticale"></div>
+
+        <!-- FORMAZIONE SCOLASTICA -->
+
+        <div class="sezione-div" id="formazioneo-scolastica">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Formazione Scolastica
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <p class="tipo-diploma">Medie</p>
+
+            <ul class="lista-scuola">
+              <li>Virgilio I, Napoli</li>
+              <li>6/10</li>
+              <li class="giallo">2014-2017</li>
+            </ul>
+
+            <p class="tipo-diploma">Superiori</p>
+
+            <ul class="lista-scuola">
+              <li>
+                <a href="https://www.itiferraris.edu.it/" target="_blank"
+                  >ITI Galileo Ferraris, Napoli</a
+                >
+              </li>
+              <li>Indirizzo informatica</li>
+              <li>95/100esimi</li>
+              <li>EQF 4</li>
+              <li class="giallo">2018-2023</li>
+            </ul>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- CERTIFICAZIONI  -->
+
+        <div class="sezione-div" id="certificazioni">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Certificazioni e Attestati
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <div class="badge-div">
+              <img
+                src="./curriculum/images/certificazioni/badge_lettura_b2.png"
+                alt=""
+              />
+
+              <p class="badge-testo">
+                <span class="badge-titolo"
+                  >Prova INVALSI Inglese lettura - Livello B2
+                </span>
+                <br />
+                <span class="giallo">2023</span>
+                <br />
+                <a
+                  href="https://openbadges.bestr.it/public/assertions/FJw-gavOSoq27l00FxY2lQ"
+                  target="_blank"
+                  >bestr.it</a
+                >
+              </p>
+            </div>
+
+            <div class="badge-div">
+              <img
+                src="./curriculum/images/certificazioni/badge_ascolto_b2.png"
+                alt=""
+              />
+
+              <p class="badge-testo">
+                <span class="badge-titolo"
+                  >Prova INVALSI Inglese ascolto - Livello B2
+                </span>
+                <br />
+                <span class="giallo">2023</span>
+                <br />
+                <a
+                  href="https://openbadges.bestr.it/public/assertions/TbkjSukWSaSUCqfQU8HBeQ"
+                  target="_blank"
+                  >bestr.it</a
+                >
+              </p>
+            </div>
+
+            <div class="attestato">
+              <span class="badge-titolo">Il digitale ci integra -2 </span>
+              <br />
+              <p>10.3.1A-FSEPON-CA-2019-57</p>
+              <span class="giallo">2022</span>
+              <a
+                href="./curriculum/documents/attestato_il_digitale_ci_integra_2_2022.pdf"
+                target="_blank"
+                >Visualizza</a
+              >
+            </div>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- LINGUE -->
+
+        <div class="sezione-div" id="lingue">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Lingue
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <div class="svg-p-row">
+              <img
+                src="./curriculum/images/lingue/bandiera_italiana.png"
+                alt=""
+              />
+              <p>Madrelingua</p>
+            </div>
+
+            <div class="svg-p-row">
+              <img
+                src="./curriculum/images/lingue/bandiera_regno_unito.png"
+                alt=""
+              />
+              <p>B2</p>
+            </div>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+
+        <!-- SOCIAL -->
+
+        <div class="sezione-div" id="social">
+          <h3 class="sezione-titolo">
+            <span class="slash giallo">/</span>
+            Social
+            <span class="graffa rosso">&#123;</span>
+          </h3>
+
+          <br class="br-da-nascondere" />
+
+          <div class="sezione-testo">
+            <div class="svg-p-row">
+              <a href="https://github.com/MichaelGuidelli" target="_blank"
+                ><img
+                  src="./curriculum/images/svg_social/github_icon.svg"
+                  alt=""
+              /></a>
+              <p>
+                <a href="https://github.com/MichaelGuidelli" target="_blank"
+                  >Github</a
+                >
+              </p>
+            </div>
+
+            <div class="svg-p-row">
+              <a
+                href="https://www.linkedin.com/in/michael-guidelli-1ba93a279/"
+                target="_blank"
+                ><img
+                  class="social-icon"
+                  src="./curriculum/images/svg_social/linkedin_icon.svg"
+                  alt=""
+              /></a>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/michael-guidelli-1ba93a279/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <p class="graffa-chiusa rosso">&#125;</p>
+        </div>
+      </div>
+
+      <div class="numeri-div"></div>
     </div>
-</body>
+  </body>
 </html>
